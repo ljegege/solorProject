@@ -1,0 +1,173 @@
+﻿@charset "utf-8";
+
+body{
+	margin: 0px;
+	padding: 0px;
+}	
+
+.font_balack_title{
+	font-size:14px;
+	color:#FFF;
+	font-family:黑体;
+
+}
+.font_address{
+	color:#966;
+	font-family:黑体;
+	font-size:14px;
+}
+
+.font_address{
+	color:#966;
+	font-family:黑体;
+	font-size:14px;
+}
+
+a{
+	text-decoration:none;
+	display:block;
+	color:#CCC;
+}
+#container {
+	background-image:url(../image/bg.gif);
+	background-repeat: no-repeat;
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	height: 845px;
+}
+
+#header{
+	height:112px;
+	width:1000px;
+	padding-top:13px;
+	
+}
+
+#banner{
+	height:112px;
+	width:946px;
+	margin-left:27px;
+	margin-right:27px;
+	background-image: url(../image/banner.jpg);
+	background-repeat:no-repeat;
+	border-style:solid;
+	border-width:1px;
+	border-color:#FFF;
+}
+
+#menu_bar
+{
+	background-image: url(../image/menu.png);
+	width:951px;
+	height:28px;
+	margin-top:6px;
+	margin-left:25px;
+	margin-right:25px;
+	margin-bottom:0px;
+}
+
+#menu_bar ul
+{
+	margin:0px;
+	border:0px;
+	padding:0px;
+
+}
+#menu_bar li
+{
+	float:left;
+	list-style-type:none;
+	margin:0px;
+	border:0px;
+	padding:0px;
+	width:93px;
+	height:28px;
+	background-image: url(../image/bar.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#menu_bar a
+{
+	display:block;
+	margin:0px;
+	border:0px;
+	padding-top:7px;
+	text-align:center;
+	padding-bottom:7PX;
+	padding-left:0px;
+	padding-right:0px;
+}
+#menu_bar .hover
+{
+	background-image: url(../image/hover.png);
+	background-repeat: no-repeat;
+	display:block;
+	margin:0px;
+	border:0px;
+	padding-top:7px;
+	text-align:center;
+	padding-bottom:7PX;
+	padding-left:0px;
+	padding-right:0px;
+	color:#FFF;
+	font-size:14px;
+	font-family:黑体;
+}
+#menu_bar .active
+{
+	background-image: url(../image/hover.png);
+	background-repeat: no-repeat;
+}
+#title
+{
+	background-image: url(../image/earth.png);
+	background-repeat: no-repeat;
+	width:918px;
+	height:23px;
+	margin-top:5px;
+	margin-left:25px;
+	margin-right:25px;
+	margin-bottom:0px;
+	padding-top:5px;
+	padding-left:34px;
+	padding-bottom:0px;
+	padding-right:0px;
+	border:0px;
+	display:block;
+}
+#content_flex
+{
+	margin-left:25px;
+	margin-right:25px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border:0px;
+	padding:0px;
+	width:950px;
+	height:588px;
+}
+#footnote
+{
+	margin-left:640px;
+	margin-top:16px;
+	margin-bottom:0px;
+	margin-right:0px;
+	width:190px;
+	height:14px;
+	padding:0px;
+	border:0px;
+	float:left;
+	
+}
+#footnote1ink a
+{
+	margin-left:0px;
+	margin-top:16px;
+	margin-bottom:0px;
+	margin-right:34px;
+	border:0px;
+	padding:0px;
+	float:right;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0099)http://222.201.132.5:8080/New_En_Save/showUniIndexMonitor.do?uniId=fd5863941fa3326f011fa332743d0001 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>首页</title>
+<link href="./首页_files/share.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="countTotalElement(document);">
+    <div id="container">
+        <div id="header">
+        	<div id="banner"></div>  
+      	</div>        
+        
+	
+
+<script language="javascript">
+	var count = 0;
+  function countTotalElement(node){
+  var total = 0;
+  if(node.nodeType == 1 && node.tagName == "TITLE" && node.innerText.indexOf("首页") != -1 ){
+ 	 total ++;
+ 	 document.getElementById( "0" ).className = "hover" ;
+ 	 count = 0;
+  }
+  if(node.nodeType == 1 && node.tagName == "TITLE" && node.innerText.indexOf("能源监管") != -1 ){
+ 	 total ++;
+ 	 document.getElementById( "1" ).className = "hover" ;
+    count = 1;
+  }
+  if(node.nodeType == 1 && node.tagName == "TITLE" && node.innerText.indexOf("智能控制") != -1 ){
+  total ++;
+  document.getElementById( "2" ).className = "hover" ;
+    count = 2;
+  }
+  if(node.nodeType == 1 && node.tagName == "TITLE" && node.innerText.indexOf("报表信息") != -1 ){
+  total ++;
+  document.getElementById( "3" ).className = "hover" ;
+    count = 3;
+  }
+  
+  if(node.nodeType == 1 && node.tagName == "TITLE" && node.innerText.indexOf("设备管理") != -1 ){
+  total ++;
+  document.getElementById( "4" ).className = "hover" ;
+    count = 4;
+  }
+  if(node.nodeType == 1 && node.tagName == "TITLE" && node.innerText.indexOf("供电系统") != -1 ){
+  total ++;
+  document.getElementById( "5" ).className = "hover" ;
+    count = 5;
+  }
+  if(node.nodeType == 1 && node.tagName == "TITLE" && node.innerText.indexOf("供水系统") != -1 ){
+  total ++;
+  document.getElementById( "6" ).className = "hover" ;
+    count = 6;
+  }
+
+  var childrens = node.childNodes;
+  for(var i = 0 ; i < childrens.length; i++){
+  total += countTotalElement(childrens[i]);
+  }
+
+  return total;
+  }
+  function state(obj){
+  if(obj.id == count)obj.className = "hover" ;
+  else obj.className = "font_balack_title" ;
+  }
+
+</script>
+<div id="menu_bar">
+	<ul>
+		<li>
+			<a id="0" onmouseover="this.className=&#39;hover&#39;;" onmouseout="state(this);" href="./首页_files/首页.html" class="hover">首页</a>
+		</li>
+		<li>
+			<a id="1" onmouseover="this.className=&#39;hover&#39;;" onmouseout="state(this);" href="http://222.201.132.5:8080/New_En_Save/showUniEnergyMonitor.do?uniId=fd5863941fa3326f011fa332743d0001" class="font_balack_title">能源监管</a>
+		</li>
+		<li>
+			<a id="2" onmouseover="this.className=&#39;hover&#39;;" onmouseout="state(this);" href="http://222.201.132.5:8080/New_En_Save/showAICtrl.do?uniId=fd5863941fa3326f011fa332743d0001" class="font_balack_title">智能控制</a>
+		</li>
+		<li>
+			<a id="3" onmouseover="this.className=&#39;hover&#39;;" onmouseout="state(this);" href="http://222.201.132.5:8080/New_En_Save/gotoUniReport.do?uniId=fd5863941fa3326f011fa332743d0001" class="font_balack_title">报表信息</a>
+		</li>
+		
+		<li>
+			<a id="4" onmouseover="this.className=&#39;hover&#39;;" onmouseout="state(this);" href="http://222.201.132.5:8080/New_En_Save/toAlarmRecord.do?uniId=fd5863941fa3326f011fa332743d0001" class="font_balack_title">设备管理</a>
+		</li>
+		<li>
+			<a id="5" onmouseover="this.className=&#39;hover&#39;;" target="blank" onmouseout="state(this);" href="http://222.201.132.5:8080/New_En_Save/showHighElec.do?uniId=fd5863941fa3326f011fa332743d0001" class="font_balack_title">供电系统</a>
+		</li>
+		<li>
+			<a id="6" onmouseover="this.className=&#39;hover&#39;;" target="blank" onmouseout="state(this);" href="http://222.201.132.5:8080/New_En_Save/showWaterEquip.do?uniId=fd5863941fa3326f011fa332743d0001" class="font_balack_title">供水系统</a>
+		</li>
+		<li>
+			<a onmouseover="this.className=&#39;hover&#39;;" onmouseout="this.className = &#39;font_balack_title&#39;" href="http://222.201.132.5:8080/New_En_Save/logoff.do?type=uni" class="font_balack_title">退出系统</a>
+		</li>
+	</ul>
+</div>
+        <div id="title" class="font_address">您现在的位置是：华南理工大学监控平台&gt;首页
+            </div>
+            <div id="content_flex">
+            	
+
+
+ <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" name="BuildingMap" width="950" height="588" id="BuildingMap">
+                          	<param name="movie" value="university/swf/eduEnergyManagement.swf?universityId=fd5863941fa3326f011fa332743d0001">
+                            <param name="quality" value="high">
+                            <param name="bgcolor" value="#869ca7">
+                            <param name="allowScriptAccess" value="sameDomain">
+                            <embed src="university/swf/eduEnergyManagement.swf?universityId=fd5863941fa3326f011fa332743d0001" quality="high" bgcolor="#869ca7" width="950" height="588" name="BuildingMap" align="middle" play="true" loop="false" allowscriptaccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer">
+                            
+                    </object>
+            </div>
+            </div>
+
+
+</body></html>
