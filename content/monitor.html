@@ -4,27 +4,67 @@
 	<link href="./share.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div>
-<div id="menu_bar">
-	<ul>
-		<li>
-			<a id="0">实时数据监控</a>
-		</li>
-		<li>
-			<a id="1">历史数据监控</a>
-		</li>
-	</ul>
-	</div>
-	<div><hr size="2" color="#000000"></div>
-	
-	<div id="base_data">
-<div id="data_title">基础数据</div>	
-	</div>
-	<div>
-	<div id="cur_data">
-	<div id="data_title">当前数据</div>
-	</div>
-	</div>
-</div>
+    <div>
+    <div id="menu_bar">
+            <ul>
+                    <li>
+                            <a id="0">实时数据监控</a>
+                    </li>
+                    <li>
+                            <a id="1">历史数据监控</a>
+                    </li>
+            </ul>
+    </div>
+    <div><hr size="2" color="#000000"></div>
+
+    <div id="base_data">
+    <div>基础数据</div>	
+    <table class="data_table">
+                <tr>
+                <th>当前使用网络(网电/市电)</th>
+                <th>市电</th>
+                </tr>
+                <tr>
+                <td>发电电压/V</td>
+                <td>220</td>
+                </tr>
+                <tr>
+                <td>负载电压/V</td>
+                <td>220</td>
+                </tr>
+                <tr>
+                <td>负载功率/W</td>
+                <td>150</td>
+                </tr>
+                <tr>
+                <td>电池状态(充电/放电)</td>
+                <td>充电</td>
+                </tr>
+    </table>
+    </div>
+        <div>
+            <div id="cur_data">
+            <div>当前数据</div>
+            <table class="data_table">
+                <tr>
+                <th>发电量/KWH</th>
+                <th>140</th>
+                </tr>
+                <tr>
+                <td>总耗电量/KWH/V</td>
+                <td>220</td>
+                </tr>
+                <tr>
+                <td>电网耗电量/KWH</td>
+                <td>120</td>
+                </tr>
+                <tr>
+                <td>市电耗电量/KWH</td>
+                <td>100</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
